@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #dbeaf3;
+}
+
+body {
+    /* background-image: linear-gradient( #26306e,#585fbe,#9b9ccf); */
+    background-image: linear-gradient( #2c83d4,#57a3d6,#e9f38b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    padding-top: 15px;
+    height: 85%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 10px;
+
+}
+.weatherform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-box{
+    position: relative;
+    width: 65%;
+    max-width: 200px;
+}
+.search-icon{
+    position:absolute;
+    top:3px;
+    left:7px;
+  
+}
+.search{
+    color: #3aaacc;
+    font-size: 13px;
+    background-color: #bdddfc;
+}
+.delete-icon{
+    position: absolute;
+    top:5px;
+    right:0px;
+    background-color: transparent;
+    border: none;
+   
+}
+.delete{
+    color: #3aaacc;
+    font-size: 10px;
+}
+.delete-icon:hover{
+    transform: scale(1.2);
+}
+.city_input{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 22px;
+    color: #000;
+    background-color: #bdddfc;
+}
+.city_input:focus{
+    outline: none;
+    border: none;
+    
+}
+.search-icon:hover{
+    transform: scale(1.2);
+}
+.submit{
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 25%;
+    background-color: #afb954;
+    color: rgb(215, 215, 221);
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.submit:hover{
+    transform:scaleX(1.1)
+}    
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.tempdisplay{
+    font-weight: 700;
+}
+.humiditydisplay{
+font-weight: 500;
+color: #b6be6b;
+margin-bottom: 10px;
+}
+.descdisplay{
+    font-weight: 500;
+    color: #364147;
+    margin-bottom: 5px;
+}
+.weatheremoji{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.weatheremoji:hover{
+    transform: scale(1.3);
+}
+.errordisplay{
+    font-weight: 500;
+    color: #464444;
+}
+.cityname{
+    margin-bottom: 10px;
+}
